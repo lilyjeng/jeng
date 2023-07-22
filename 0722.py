@@ -27,3 +27,4 @@ with open('目前天氣.csv',mode ='w',encoding='utf-8',newline='') as file:
     writer = csv.DictWriter(file,fieldnames=fieldnames)
     writer.writeheader()
     writer.writerows(weather_list) 
+
